@@ -126,8 +126,16 @@ img {
 
 /* main */
 
-.section.hero {
-	background-color: var(--header-text-color);
+.hero-bg {
+	background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+	background-color: #2e2f42;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	box-sizing: border-box;
+	max-width: 1440px;
+	margin-left: auto;
+	margin-right: auto;
 	text-transform: capitalize;
 	padding-top: 188px;
 	padding-bottom: 188px;
@@ -188,6 +196,59 @@ img {
 	display: flex;
 	gap: 24px;
 }
+
+.hide .list {
+	color: var(--header-text-color);
+}
+
+.adv-item::before {
+	content: "";
+	display: block;
+	margin-bottom: 8px;
+	width: 100%;
+	height: 112px;
+	border-radius: 4px;
+	/* padding: 24px 102px; */
+	fill: var(--header-text-color);
+	background-color: var(--secondary-white-color);
+}
+
+.rad::before {
+	content: "";
+	display: block;
+	background-image: url(../images/radar.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 64px 64px;
+}
+
+.clo::before {
+	content: "";
+	display: block;
+	background-image: url(../images/clock.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 64px 64px;
+}
+
+.lap::before {
+	content: "";
+	display: block;
+	background-image: url(../images/laptop.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 64px 64px;
+}
+
+.ast::before {
+	content: "";
+	display: block;
+	background-image: url(../images/astronaut.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 64px 64px;
+}
+
 /* doing */
 
 .section-header {
@@ -229,6 +290,37 @@ img {
 	gap: 24px;
 }
 
+.socials {
+	display: flex;
+	justify-content: center;
+}
+
+.icons {
+	display: flex;
+	gap: 24px;
+}
+
+.icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	height: 40px;
+	background-color: #4d5ae5;
+	border-radius: 50%;
+	color: var(--secondary-white-color);
+}
+
+.icon:hover {
+	background-color: var(--accent-link-color);
+}
+
+.svg {
+	width: 40%;
+	height: 40%;
+	fill: currentColor;
+}
+
 .name-pos {
 	padding-top: 32px;
 	padding-bottom: 32px;
@@ -245,6 +337,34 @@ img {
 
 .position {
 	text-align: center;
+	margin-bottom: 8px;
+}
+
+.customers {
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+
+.customers-items {
+	display: flex;
+	gap: 24px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.customer-item {
+	border: 1px solid #8e8f99;
+	border-radius: 4px;
+	padding: 16px 32px;
+	height: 88px;
+	width: calc(100% / 6);
+}
+
+.customer-svg {
+	width: 100%;
+	height: 100%;
+	display: block;
+	fill: #8e8f99;
 }
 
 /* footer */
@@ -254,18 +374,62 @@ footer.footer {
 	padding-bottom: 100px;
 }
 
+.webstudio {
+	width: calc(100% / 3);
+}
+
 .footer {
 	background-color: var(--header-text-color);
+}
+
+.foot {
+	display: flex;
 }
 
 .footer.text {
 	color: var(--primery-white-color);
 	max-width: 264px;
+	margin-top: 16px;
 }
 
 .container.foot > .logo.link {
 	display: inline-block;
 	margin-bottom: 16px;
+}
+
+.social-media {
+	width: calc(100% / 3);
+}
+
+.social-head {
+	color: var(--primery-white-color);
+	margin-bottom: 16px;
+}
+
+.social-icons {
+	display: flex;
+	gap: 16px;
+}
+
+.social-icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	height: 40px;
+	background-color: var(--primery-brend-color);
+	border-radius: 50%;
+	color: var(--secondary-white-color);
+}
+
+.social-icon:hover {
+	background-color: #31d0aa;
+}
+
+.social-svg {
+	fill: currentColor;
+	height: 60%;
+	width: 60%;
 }
 
 /* portfolio */
@@ -333,6 +497,13 @@ section.filters {
 	padding-bottom: 32px;
 	padding-left: 16px;
 	padding-right: 16px;
+}
+
+.post-name:hover {
+	border-bottom: 1px solid var(--secondary-white-color);
+	border-left: 1px solid var(--secondary-white-color);
+	border-right: 1px solid var(--secondary-white-color);
+	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .port-name {
