@@ -201,19 +201,29 @@ img {
 	color: var(--header-text-color);
 }
 
-.adv-item::before {
-	content: "";
-	display: block;
-	margin-bottom: 8px;
-	width: 100%;
+.picture {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	height: 112px;
+	background-color: #f4f4fd; 
 	border-radius: 4px;
-	/* padding: 24px 102px; */
-	fill: var(--header-text-color);
-	background-color: var(--secondary-white-color);
+	margin-bottom: 8px;
 }
 
-.rad::before {
+/* .adv-item::before {
+	content: "";
+	display: block;
+	
+	
+	height: 112px;
+	border-radius: 4px;
+	
+	fill: var(--header-text-color);
+	background-color: var(--secondary-white-colo);
+} */
+
+/* .rad::before {
 	content: "";
 	display: block;
 	background-image: url(../images/radar.svg);
@@ -247,7 +257,7 @@ img {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 64px 64px;
-}
+} */
 
 /* doing */
 
