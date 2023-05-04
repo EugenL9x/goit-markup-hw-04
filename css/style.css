@@ -502,6 +502,7 @@ section.filters {
 
 .project {
 	display: block;
+	text-decoration: none;
 }
 
 .project:hover {
