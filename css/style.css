@@ -418,6 +418,8 @@ footer.footer {
 .social-item {
 	background-color: var(--primery-brend-color);
 	border-radius: 50%;
+	width: 40px;
+	height: 40px;
 }
 
 .social-item:hover {
@@ -427,8 +429,7 @@ footer.footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 40px;
-	height: 40px;
+
 	/* background-color: var(--primery-brend-color);
 	border-radius: 50%; */
 	color: var(--secondary-white-color);
