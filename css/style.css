@@ -416,18 +416,26 @@ footer.footer {
 }
 
 .social-item {
+	background-color: var(--primery-brend-color);
+	border-radius: 50%;
+}
+
+.social-item:hover {
+	background-color: #31d0aa;
+}
+.social-icon {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	width: 40px;
 	height: 40px;
-	background-color: var(--primery-brend-color);
-	border-radius: 50%;
+	/* background-color: var(--primery-brend-color);
+	border-radius: 50%; */
 	color: var(--secondary-white-color);
 }
 
-.social-item:hover {
-	background-color: #31d0aa;
+.social-icon:hover {
+	/* background-color: #31d0aa; */
 }
 
 .social-svg {
