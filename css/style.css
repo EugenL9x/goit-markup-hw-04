@@ -126,8 +126,8 @@ img {
 
 /* main */
 
-.hero-bg {
-	background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+.section-hero {
+	background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpeg);
 	background-color: #2e2f42;
 	background-repeat: no-repeat;
 	background-size: cover;
