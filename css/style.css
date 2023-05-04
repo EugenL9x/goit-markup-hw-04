@@ -375,14 +375,14 @@ footer.footer {
 }
 
 .webstudio {
-	width: calc(100% / 3);
+	/* width: calc(100% / 3); */
 }
 
 .footer {
 	background-color: var(--header-text-color);
 }
 
-.foot {
+.container.foot {
 	display: flex;
 	align-items: baseline;
 	gap: 120px;
@@ -400,7 +400,7 @@ footer.footer {
 }
 
 .social-media {
-	width: calc(100% / 3);
+	/* width: calc(100%-120px / 3 ); */
 }
 
 .social-head {
