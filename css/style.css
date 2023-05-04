@@ -337,13 +337,10 @@ img {
 	color: #404bbf; 
 }
 
-/* .customer-item {
-	border: 1px solid #8e8f99;
-	border-radius: 4px;
-	
+.customer-item {
 	height: 88px;
 	width: calc(100% / 6);
-} */
+}
 
 .customer-svg {
 	fill: currentColor;
