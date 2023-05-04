@@ -435,12 +435,13 @@ footer.footer {
 	color: var(--secondary-white-color);
 }
 
-.social-icon:hover {
+.social-icon:hover,
+.social-icon:focus {
 	background-color: #31d0aa;
 }
 
 .social-svg {
-	fill: currentColor;
+	fill: var(--secondary-white-color);
 }
 
 /* portfolio */
