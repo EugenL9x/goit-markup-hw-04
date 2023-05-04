@@ -253,13 +253,10 @@ img {
 	gap: 24px;
 }
 
-.socials {
-	display: flex;
-	justify-content: center;
-}
 
 .icons {
 	display: flex;
+	justify-content: center; 
 	gap: 24px;
 }
 
@@ -275,6 +272,10 @@ img {
 }
 
 .icon:hover {
+	background-color: var(--accent-link-color);
+}
+
+.icon:focus {
 	background-color: var(--accent-link-color);
 }
 
