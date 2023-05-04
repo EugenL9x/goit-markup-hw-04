@@ -500,6 +500,18 @@ section.filters {
 	margin-bottom: 0;
 }
 
+.project {
+	display: block;
+}
+
+.project:hover {
+	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
+}
+
+.project:focus {
+	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
+}
+
 .list li:nth-child(3n) {
 	margin-right: 0;
 }
@@ -518,7 +530,6 @@ section.filters {
 	border-bottom: 1px solid var(--secondary-white-color);
 	border-left: 1px solid var(--secondary-white-color);
 	border-right: 1px solid var(--secondary-white-color);
-	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .port-name {
