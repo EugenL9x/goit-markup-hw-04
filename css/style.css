@@ -211,53 +211,6 @@ img {
 	margin-bottom: 8px;
 }
 
-/* .adv-item::before {
-	content: "";
-	display: block;
-	
-	
-	height: 112px;
-	border-radius: 4px;
-	
-	fill: var(--header-text-color);
-	background-color: var(--secondary-white-colo);
-} */
-
-/* .rad::before {
-	content: "";
-	display: block;
-	background-image: url(../images/radar.svg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 64px 64px;
-}
-
-.clo::before {
-	content: "";
-	display: block;
-	background-image: url(../images/clock.svg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 64px 64px;
-}
-
-.lap::before {
-	content: "";
-	display: block;
-	background-image: url(../images/laptop.svg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 64px 64px;
-}
-
-.ast::before {
-	content: "";
-	display: block;
-	background-image: url(../images/astronaut.svg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 64px 64px;
-} */
 
 /* doing */
 
